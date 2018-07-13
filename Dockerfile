@@ -6,4 +6,5 @@ RUN pip install -U \
     robotframework-requests \
     pymysql \
     demjson \
-    robotframework-jsonvalidator
+    robotframework-jsonvalidator \
+	robotframework-databaselibrary
