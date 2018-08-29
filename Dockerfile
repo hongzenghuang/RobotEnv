@@ -7,4 +7,11 @@ RUN pip install -U \
     pymysql \
     demjson \
     robotframework-jsonvalidator \
-	robotframework-databaselibrary
+	robotframework-databaselibrary \
+	BeautifulSoup \
+	pyotp \
+	pyjwt
+	
+RUN git clone git://github.com/charlierguo/gmail.git && cd gmail && python setup.py install
+
+CMD ['pybot']
